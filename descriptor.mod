@@ -4,5 +4,6 @@ tags={
 	"Gameplay"
 }
 name="Scales of Power Alert"
+picture="thumbnail.png"
 supported_version="1.19.*"
 remote_file_id="3803104291"

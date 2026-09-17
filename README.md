@@ -1,5 +1,7 @@
 # Scales of Power Alert
 
+<p align="center"><img src="thumbnail.png" alt="Scales of Power Alert cover" width="512"></p>
+
 A lightweight utility mod for Crusader Kings III 1.19.
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3803104291)
