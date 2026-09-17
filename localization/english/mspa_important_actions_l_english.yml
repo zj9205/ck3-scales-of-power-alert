@@ -1,5 +1,5 @@
 ﻿l_english:
  action_mspa_liege_can_swing_scales:0 "@law_icon!You can swing the $game_concept_scales_of_power$"
- action_mspa_liege_can_swing_scales_label:0 "@law_icon!You can swing the $game_concept_scales_of_power$ (current: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]/100#!)"
- action_mspa_liege_can_swing_scales_desc:0 "Current $game_concept_scales_of_power$: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]/100#!. A higher value means more power favors [recipient.GetUIName].\n\nThe cooldown has ended and you have at least one usable method to curb [recipient.GetHerHis] power."
+ action_mspa_liege_can_swing_scales_label:0 "@law_icon!You can swing the $game_concept_scales_of_power$ (current: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc:0 "Current $game_concept_scales_of_power$: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. A higher value means more power favors [recipient.GetUIName].\n\nThe cooldown has ended and you have at least one usable method to curb [recipient.GetHerHis] power."
  action_mspa_liege_can_swing_scales_click:0 "#I Click to open the Swing Scales interaction#!"

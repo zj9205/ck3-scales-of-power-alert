@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
  action_mspa_liege_can_swing_scales:0 "@law_icon!可以调整$game_concept_scales_of_power$"
- action_mspa_liege_can_swing_scales_label:0 "@law_icon!你可以调整$game_concept_scales_of_power$（当前：#V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]/100#!）"
- action_mspa_liege_can_swing_scales_desc:0 "当前$game_concept_scales_of_power$：#V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]/100#!。数值越高，权力越偏向[recipient.GetUIName]。\n\n调整天平的冷却已经结束，且你至少有一种可用方式来限制[recipient.GetHerHis]权力。"
+ action_mspa_liege_can_swing_scales_label:0 "@law_icon!你可以调整$game_concept_scales_of_power$（当前：#V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!）"
+ action_mspa_liege_can_swing_scales_desc:0 "当前$game_concept_scales_of_power$：#V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!。数值越高，权力越偏向[recipient.GetUIName]。\n\n调整天平的冷却已经结束，且你至少有一种可用方式来限制[recipient.GetHerHis]权力。"
  action_mspa_liege_can_swing_scales_click:0 "#I 点击打开“摆动权力天平”互动#!"
