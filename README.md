@@ -2,6 +2,8 @@
 
 A lightweight utility mod for Crusader Kings III 1.19.
 
+[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3803104291)
+
 ## Screenshots
 
 | English | 简体中文 |

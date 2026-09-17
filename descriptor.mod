@@ -5,3 +5,4 @@ tags={
 }
 name="Scales of Power Alert"
 supported_version="1.19.*"
+remote_file_id="3803104291"
