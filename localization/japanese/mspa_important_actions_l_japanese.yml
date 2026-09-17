@@ -1,0 +1,6 @@
+﻿l_japanese:
+ action_mspa_liege_can_swing_scales: "@law_icon!$game_concept_scales_of_power$を揺動"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!$game_concept_scales_of_power$を揺動（現在：#V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!）"
+ action_mspa_liege_can_swing_scales_desc: "現在の$game_concept_scales_of_power$：#V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!。値が高いほど、権力は[recipient.GetUIName]寄りになります。\n\nクールダウンが終了し、[recipient.GetUINameNoTooltip]の権力を抑える方法が少なくとも一つ利用できます。"
+ action_mspa_liege_can_swing_scales_click: "#I クリックして「権力の天秤を揺動」インタラクションを開く#!"
+

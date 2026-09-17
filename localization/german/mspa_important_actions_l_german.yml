@@ -1,0 +1,6 @@
+﻿l_german:
+ action_mspa_liege_can_swing_scales: "@law_icon!$game_concept_scales_of_power$ ausschlagen lassen"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!$game_concept_scales_of_power$ ausschlagen lassen (aktuell: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc: "Aktuelles $game_concept_scales_of_power$: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. Je höher der Wert ist, desto mehr Macht liegt bei [recipient.GetUIName].\n\nDie Abklingzeit ist abgelaufen und Ihr habt mindestens eine Möglichkeit, die Macht von [recipient.GetUINameNoTooltip] einzuschränken."
+ action_mspa_liege_can_swing_scales_click: "#I Klicken, um die Interaktion zum Ausschlagen des Machtgleichgewichts zu öffnen#!"
+

@@ -1,0 +1,6 @@
+﻿l_russian:
+ action_mspa_liege_can_swing_scales: "@law_icon!Сместить $game_concept_scales_of_power$"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!Сместить $game_concept_scales_of_power$ (текущее значение: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc: "Текущее равновесие сил: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. Чем выше значение, тем больше власти у персонажа [recipient.GetUIName].\n\nВремя восстановления истекло, и у вас есть как минимум один доступный способ ограничить власть персонажа [recipient.GetUINameNoTooltip]."
+ action_mspa_liege_can_swing_scales_click: "#I Щелкните, чтобы открыть взаимодействие «Сместить равновесие сил»#!"
+

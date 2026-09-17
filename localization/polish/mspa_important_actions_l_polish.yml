@@ -1,0 +1,6 @@
+﻿l_polish:
+ action_mspa_liege_can_swing_scales: "@law_icon!Przechyl szale władzy"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!Przechyl szale władzy (obecnie: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc: "Obecny stan szali władzy: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. Im wyższa wartość, tym więcej władzy ma [recipient.GetUIName].\n\nCzas odnowienia upłynął i masz co najmniej jeden dostępny sposób, aby ograniczyć władzę postaci [recipient.GetUINameNoTooltip]."
+ action_mspa_liege_can_swing_scales_click: "#I Kliknij, aby otworzyć interakcję „Przechyl szale władzy”#!"
+

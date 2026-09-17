@@ -1,0 +1,6 @@
+﻿l_french:
+ action_mspa_liege_can_swing_scales: "@law_icon!Faire pencher l’équilibre des pouvoirs"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!Faire pencher l’équilibre des pouvoirs (actuel : #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc: "Équilibre des pouvoirs actuel : #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. Plus la valeur est élevée, plus le pouvoir penche en faveur de [recipient.GetUIName].\n\nLe délai pour faire pencher l’équilibre des pouvoirs est terminé et vous disposez d’au moins un moyen de limiter son pouvoir."
+ action_mspa_liege_can_swing_scales_click: "#I Cliquer pour ouvrir l’interaction « Faire pencher l’équilibre des pouvoirs »#!"
+

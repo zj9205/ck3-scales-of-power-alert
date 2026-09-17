@@ -1,0 +1,6 @@
+﻿l_korean:
+ action_mspa_liege_can_swing_scales: "@law_icon!$game_concept_scales_of_power$ 흔들기"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!$game_concept_scales_of_power$ 흔들기 (현재: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc: "현재 $game_concept_scales_of_power$: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. 값이 높을수록 권력이 [recipient.GetUIName] 쪽으로 기웁니다.\n\n재사용 대기시간이 끝났으며, [recipient.GetUINameNoTooltip]의 권력을 제한할 수단을 하나 이상 사용할 수 있습니다."
+ action_mspa_liege_can_swing_scales_click: "#I 클릭하여 ‘권력의 균형 흔들기’ 상호작용 열기#!"
+

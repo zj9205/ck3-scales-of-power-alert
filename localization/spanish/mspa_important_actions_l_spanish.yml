@@ -1,0 +1,6 @@
+﻿l_spanish:
+ action_mspa_liege_can_swing_scales: "@law_icon!Mueve la $game_concept_scales_of_power$"
+ action_mspa_liege_can_swing_scales_label: "@law_icon!Mueve la $game_concept_scales_of_power$ (valor actual: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!)"
+ action_mspa_liege_can_swing_scales_desc: "Valor actual de la $game_concept_scales_of_power$: #V [actor.MakeScope.ScriptValue('mspa_current_diarchy_swing_value')|0]#!. Cuanto mayor sea el valor, más poder tendrá [recipient.GetUIName].\n\nEl tiempo de reutilización ha terminado y tienes al menos un método disponible para limitar el poder de [recipient.GetUINameNoTooltip]."
+ action_mspa_liege_can_swing_scales_click: "#I Haz clic para abrir la interacción «Mover la balanza de poder»#!"
+
