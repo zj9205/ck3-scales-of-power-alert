@@ -2,6 +2,12 @@
 
 A lightweight utility mod for Crusader Kings III 1.19.
 
+## Screenshots
+
+| English | 简体中文 |
+| :---: | :---: |
+| <img src="screenshots/scales-alert-en.png" alt="English Scales of Power alert"> | <img src="screenshots/scales-alert-zh.png" alt="简体中文权力天平提示"> |
+
 ## Features
 
 - Adds a ruler-side Important Action when **Swing the Scales of Power** is available.
