@@ -1,0 +1,3 @@
+mspa_current_diarchy_swing_value = {
+	value = diarchy_swing
+}

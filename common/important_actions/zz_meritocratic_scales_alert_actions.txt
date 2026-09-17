@@ -1,0 +1,51 @@
+﻿### SCALES OF POWER ALERTS
+
+# The base-game liege reminder only covers dangerous entrenched regencies. This
+# version covers every other diarchy whenever the ruler's interaction is ready.
+action_mspa_liege_can_swing_scales = {
+	priority = 1000
+
+	check_create_action = {
+		if = {
+			limit = {
+				has_active_diarchy = yes
+				exists = diarch
+
+				# Vanilla already creates its own dangerous alert in this case.
+				NAND = {
+					has_diarchy_active_parameter = diarchy_type_is_entrenched_regency
+					diarchy_swing >= 45
+				}
+
+				is_character_interaction_valid = {
+					interaction = swing_scales_currency_interaction
+					recipient = diarch
+				}
+				OR = {
+					influence >= swing_scales_influence_cost_value
+					prestige >= swing_scales_prestige_cost_value
+					AND = {
+						faith = diarch.faith
+						piety >= swing_scales_piety_cost_value
+					}
+					gold >= swing_scales_cash_cost_value
+					has_usable_hook = diarch
+				}
+			}
+
+			try_create_important_action = {
+				important_action_type = action_mspa_liege_can_swing_scales
+				actor = root
+				recipient = diarch
+			}
+		}
+	}
+
+	effect = {
+		open_interaction_window = {
+			interaction = swing_scales_currency_interaction
+			actor = scope:actor
+			recipient = scope:recipient
+		}
+	}
+}
