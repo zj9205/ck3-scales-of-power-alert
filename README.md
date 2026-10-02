@@ -2,7 +2,7 @@
 
 <p align="center"><img src="thumbnail.png" alt="Scales of Power Alert cover" width="512"></p>
 
-A lightweight utility mod for Crusader Kings III 1.19.
+A lightweight utility mod for Crusader Kings III 1.20.
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3803104291)
 
@@ -35,7 +35,7 @@ The original code and localization in this repository are available under the [M
 
 # 权力天平提示
 
-适用于《十字军之王 III》1.19 的轻量工具 mod。
+适用于《十字军之王 III》1.20 的轻量工具 mod。
 
 - 当君主可以“摆动权力天平”时显示“重要行动”提示。
 - 支持所有启用权力分享的政体，包括天朝政体。
